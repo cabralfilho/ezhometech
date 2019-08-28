@@ -124,7 +124,7 @@ fi
 rm online.zip
 rm -rf online
 
-standard_url='http://raw.githubusercontent.com/marconimp/ezhometech/master/online.zip'
+standard_url='http://raw.githubusercontent.com/cabralfilho/ezhometech/master/online.zip'
 wget -O online.zip $standard_url
 if [ -s online.zip ]; then
 	echo "Ezhometech Web Player downloaded..."
